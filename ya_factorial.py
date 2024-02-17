@@ -1,7 +1,7 @@
 
 def factorial(n):
     if n < 0:
-        return "Факториал отрицательного числа не определен"
+        return "The factorial of a negative number is undefined"
     elif n == 0:
         return 1
     else:
@@ -9,8 +9,8 @@ def factorial(n):
         for i in range(1, n + 1):
             result *= i
         return result
-num = int(input("Введите чисто: ")) 
+num = int(input("Input number: ")) 
 detail = factorial(num)
 deatail_fact = "{:,}".format(detail).replace(",",".")
 
-print (f"Факториал числа {num} равен {deatail_fact}")
+print (f"The factorial of {num} equals {deatail_fact}")
