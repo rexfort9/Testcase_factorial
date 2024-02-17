@@ -1,4 +1,4 @@
-Simple factorial counter
+Simple factorial identifier
 ====
 This script uses PY to fond factorial of inputed number.
 ----
