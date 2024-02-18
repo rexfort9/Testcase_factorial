@@ -1,6 +1,6 @@
 Simple factorial identifier
 ====
-This script uses PY to fond factorial of inputed number.
+This script uses PY to find factorial of inputed number.
 ----
 Script was made for test case <br>
 
